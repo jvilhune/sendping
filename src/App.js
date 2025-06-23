@@ -32,7 +32,7 @@ const App = () => {
     sendPing()
 
     /* Seuraavat 2 rivia kommentteihin jos ei haluta lukea backendilta 10 s valein buttontiloja */
-    }, 10000)
+    }, 1800000)
     //return () => clearInterval(interval)
 
     return () => {
